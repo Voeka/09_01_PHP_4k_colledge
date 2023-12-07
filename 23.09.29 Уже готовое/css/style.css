@@ -1,0 +1,69 @@
+* {
+    font-family: Segoe UI, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body, input, button {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: ghostwhite;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.container .item {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.container .item img {
+    max-width: 200px;
+}
+
+.container .item button {
+    width: 100%;
+}
+
+button, a.button {
+    padding: 15px 30px;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+
+main {
+    padding: 50px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}

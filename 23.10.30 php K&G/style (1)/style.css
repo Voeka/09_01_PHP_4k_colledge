@@ -1,0 +1,83 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+}
+
+header, footer div  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a, header div a{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.serch, .getSpam, .cinima, .content{
+    background-color: rgba(255, 255, 255, 0.399);
+    width: 95%;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    padding: 0.5rem 0 1rem 0;
+
+}
+
+.today, .cinima{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    padding:  0.5rem 0 1rem 0;
+    margin: 1rem auto;
+}
+
+.todayimg{
+    height: 25rem;
+    width: 15rem;
+}
+
+.cinima{
+    height: 25rem;
+}
+
+.cinima img{
+    width: 30rem;
+    height: auto;
+}
+
+.slider_here{
+    margin: auto;
+    border-radius: 1rem;
+    width: 80%;
+    height: 25rem;
+    background-image: url("../images/slides/1.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+}
+
+table th{
+    text-align: center;
+}
+
+/* .serch form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+} */
+
+.imgfilm{
+    height: 5rem;
+    width: 3rem;
+}
+

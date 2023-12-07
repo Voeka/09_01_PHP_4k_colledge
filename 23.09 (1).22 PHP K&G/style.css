@@ -1,0 +1,54 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.links{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:fixed;
+    top:5%;
+    left: 65%;
+    width: fit-content;
+    border: 1px solid rgb(4, 0, 255);
+    font-size: 3rem;
+    
+}
+
+.links *{margin: 10px;}
+
+.post{
+    border: 1px solid green;
+    padding: 5px;
+}
+
+.addComment{
+    height: 100%;
+    width: fit-content;
+    margin: 15px;
+    /* background-color: red; */
+    font-size: 2rem;
+}
+
+#author{
+    font-size: 2rem;
+    margin: 0;
+}
+
+#postText{
+    font-size: 1.5rem;
+}
+
+.comments{
+    border: 1px solid blue;
+    display: flex;
+}
+
+.comment{
+    border: 1px dotted red;
+    margin: 5px;
+    width: 15%;
+    font-size: 1.5rem;
+}

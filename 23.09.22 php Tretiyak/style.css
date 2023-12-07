@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.post {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px -3px 
+          rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px 10px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+}
